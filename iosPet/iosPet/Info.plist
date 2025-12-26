@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Info.plist
+   iosPet
+
+   Created by admin on 2025/12/23.
+   Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <!-- 基础应用信息 -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <!-- Scene / LaunchScreen 等占位，让默认生成配置保持一致 -->
+    <key>UIApplicationSceneManifest</key>
+    <dict/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- 后台任务权限 -->
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.example.iosPet.inactivityCheck</string>
+    </array>
+
+    <!-- 主图标 + 备用图标配置 -->
+    <key>CFBundleIcons</key>
+    <dict>
+        <!-- 主图标：Assets 里的 AppIcon 集 -->
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>AppIcon</string>
+            </array>
+            <key>UIPrerenderedIcon</key>
+            <false/>
+        </dict>
+
+        <!-- 备用图标：所有情绪对应的图标 -->
+        <key>CFBundleAlternateIcons</key>
+        <dict>
+            <key>EmojiIdle</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiIdle</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiHappy</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiHappy</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiDizzy</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiDizzy</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiSleepy</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiSleepy</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiWorkout</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiWorkout</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiAwayFocus</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiAwayFocus</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiBored</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiBored</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+            <key>EmojiLongUsage</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>EmojiLongUsage</string>
+                </array>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+            </dict>
+        </dict>
+    </dict>
+</dict>
+</plist>

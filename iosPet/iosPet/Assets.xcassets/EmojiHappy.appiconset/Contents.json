@@ -1,0 +1,38 @@
+{
+  "images" : [
+    {
+      "filename" : "top-quality-emoticon-starry-eyed-emoji-excited-emoticon-face-with-yellow-star-shaped-eyes-happy-wide-opened-mouth-yellow-face-emoji-popular-element_686498-2675.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "top-quality-emoticon-starry-eyed-emoji-excited-emoticon-face-with-yellow-star-shaped-eyes-happy-wide-opened-mouth-yellow-face-emoji-popular-element_686498-2675 1.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "filename" : "top-quality-emoticon-starry-eyed-emoji-excited-emoticon-face-with-yellow-star-shaped-eyes-happy-wide-opened-mouth-yellow-face-emoji-popular-element_686498-2675 2.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

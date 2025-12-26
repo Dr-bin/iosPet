@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>screenTimeLimitMinutes</key>
+    <integer>90</integer>
+    <key>restReminderMinutes</key>
+    <integer>30</integer>
+    <key>focusDetectionIdleMinutes</key>
+    <integer>20</integer>
+    <key>dailyGreetingTimes</key>
+    <array>
+        <string>08:00</string>
+        <string>22:00</string>
+    </array>
+</dict>
+</plist>
+

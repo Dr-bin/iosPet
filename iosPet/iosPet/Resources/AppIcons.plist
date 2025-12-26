@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>IconFatigue</key>
+    <string>疲惫表情图标占位</string>
+    <key>IconSport</key>
+    <string>运动表情图标占位</string>
+    <key>IconFocus</key>
+    <string>专注表情图标占位</string>
+    <key>IconHappy</key>
+    <string>开心表情图标占位</string>
+    <key>IconAlert</key>
+    <string>警告表情图标占位</string>
+</dict>
+</plist>
+

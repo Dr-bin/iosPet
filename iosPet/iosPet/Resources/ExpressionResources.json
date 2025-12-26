@@ -1,0 +1,55 @@
+[
+  {
+    "id": "fatigue_dizzy_widget_1",
+    "state": "dizzy",
+    "carrier": "widget",
+    "display": "😵‍💫",
+    "priority": 1,
+    "triggers": [
+      { "context": "screenTimeHigh", "timeRange": null }
+    ],
+    "imageName": null,
+    "animationName": null,
+    "soundName": null
+  },
+  {
+    "id": "fatigue_dizzy_appicon_1",
+    "state": "dizzy",
+    "carrier": "appIcon",
+    "display": "😵",
+    "priority": 1,
+    "triggers": [
+      { "context": "screenTimeHigh", "timeRange": null }
+    ],
+    "imageName": "IconFatigue",
+    "animationName": null,
+    "soundName": null
+  },
+  {
+    "id": "sport_run_widget_1",
+    "state": "running",
+    "carrier": "widget",
+    "display": "🏃‍♂️💨",
+    "priority": 1,
+    "triggers": [
+      { "context": "workout", "timeRange": null }
+    ],
+    "imageName": null,
+    "animationName": null,
+    "soundName": null
+  },
+  {
+    "id": "sport_run_appicon_1",
+    "state": "running",
+    "carrier": "appIcon",
+    "display": "🏃‍♂️",
+    "priority": 1,
+    "triggers": [
+      { "context": "workout", "timeRange": null }
+    ],
+    "imageName": "IconSport",
+    "animationName": null,
+    "soundName": null
+  }
+]
+

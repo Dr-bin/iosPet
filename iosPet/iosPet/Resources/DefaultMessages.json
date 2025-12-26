@@ -1,0 +1,43 @@
+[
+  {
+    "id": "f57e0e6f-0001-0000-0000-000000000001",
+    "category": "healthReminder",
+    "content": "休息一下吧，眼睛需要放松 🌿",
+    "lastUsed": null,
+    "usedCount": 0,
+    "source": "builtin"
+  },
+  {
+    "id": "f57e0e6f-0001-0000-0000-000000000002",
+    "category": "sportEncourage",
+    "content": "运动时间到！一起出发 🏃‍♀️",
+    "lastUsed": null,
+    "usedCount": 0,
+    "source": "builtin"
+  },
+  {
+    "id": "f57e0e6f-0001-0000-0000-000000000003",
+    "category": "studyPraise",
+    "content": "专注真棒，保持这份节奏 📚",
+    "lastUsed": null,
+    "usedCount": 0,
+    "source": "builtin"
+  },
+  {
+    "id": "f57e0e6f-0001-0000-0000-000000000004",
+    "category": "achievement",
+    "content": "今日目标达成，给你鼓掌 👏",
+    "lastUsed": null,
+    "usedCount": 0,
+    "source": "builtin"
+  },
+  {
+    "id": "f57e0e6f-0001-0000-0000-000000000005",
+    "category": "dailyCare",
+    "content": "今天又是努力的一天，加油呀 🌟",
+    "lastUsed": null,
+    "usedCount": 0,
+    "source": "builtin"
+  }
+]
+
